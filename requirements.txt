@@ -1,0 +1,6 @@
+python-opencv
+chromadb
+torch
+torchvision
+numpy
+pillow
