@@ -33,7 +33,7 @@ def get_dataloader(dir, tranform=transform,batch_size=16, num_workers=2):
    data = ImageDataset(dir, tranform)
    loader = DataLoader(
     data,
-    shuffle=True,
+    shuffle=False,
     batch_size=batch_size,
     num_workers=num_workers,
     pin_memory=True
